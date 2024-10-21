@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Speech Recognition App</h1>
+    </header>
+    <div class="container">
+        <label for="language-select">Select Language:</label>
+        <select id="language-select">
+            <option value="en-US">English (US)</option>
+            <option value="es-ES">Spanish</option>
+            <option value="fr-FR">French</option>
+            <!-- Add more languages as needed -->
+        </select>
+        <button id="start-btn">Start Recording</button>
+        <button id="stop-btn" disabled>Stop Recording</button>
+        <button id="clear-btn">Clear Result</button>
+        <button id="download-btn" disabled>Download Transcription</button>
+        <button id="play-btn" disabled>Play Back Speech</button> <!-- New Play Button -->
+        <p id="result" class="text"></p>
+        <p id="status" class="text"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/bg.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Space between header and content */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background: #ccc;
+}
+
+.text {
+    margin: 10px 0;
+    font-size: 1.2em;
+    min-height: 40px;
+}
